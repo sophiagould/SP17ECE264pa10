@@ -23,7 +23,7 @@ Maze * readMaze(char * mazeFilename) {
 	
 	//Allocate the 2D array in m
 	m->maze = malloc(m->height * sizeof(MazeSquare *));
-	for (int i = 0; i < m->width; i++) {
+	for (int i = 0; i < m->height; i++) {
 		m->maze[i] = malloc(m->width * sizeof(MazeSquare));
 	}
 	

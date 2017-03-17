@@ -31,6 +31,7 @@ int main(int argc, char ** argv) {
 		freeMaze(m);
 		free(m);
 		freePaths(paths);
+		fclose(fptr);
 	}
 		
 	return EXIT_SUCCESS;
