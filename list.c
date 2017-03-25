@@ -109,8 +109,8 @@ bool removeNode(PathLL * paths, char * path) {
 	if(fact == false){
 		return false;
 	}
-	PathNode * he = paths -> head;
-	while(strcmp(path, he->next->path) != 0){
+	PathNode * he = paths -> head;	
+	while(strcmp(path, he->path) != 0){
 		he = he ->next;
 	}
 	PathNode * test;
