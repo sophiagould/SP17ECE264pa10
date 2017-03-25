@@ -115,7 +115,7 @@ bool removeNode(PathLL * paths, char * path) {
 	}
 	PathNode * test;
 	test = he -> next;
-	he->next = test->next->next;
+	he->next = he->next->next;
 	freeNode(test);
 	return true;
 }
