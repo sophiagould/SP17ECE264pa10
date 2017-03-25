@@ -26,9 +26,9 @@ void freePaths(PathLL * p) {
 
 PathNode * buildNode(char * path) {
 	//fill in
-	PathNode * pano = malloc(sizeof(PathNode));
-	pano -> path = malloc(sizeof(char) * strlen(path) + 1);
+	PathNode * pano = malloc(sizeof(PathNode));	
 	pano -> next = NULL;
+	pano -> path = malloc(sizeof(char) * strlen(path) + 1);
 	strcpy(pano->path,path);
 	return pano;
 }

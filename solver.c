@@ -41,7 +41,6 @@ void depthFirstSolve(Maze * m, MazePos curpos, char * path, int step, PathLL * s
 	for (i = 0; i < 4; i++) {
 		path[step] = direction[i];
 		depthFirstSolve(m, steps[i], path, step + 1,successPaths);
-		return;
 	}
 	m->maze[curpos.ypos][curpos.xpos].visited = false;
 	return;
