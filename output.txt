@@ -1,0 +1,36 @@
+[*] Cleaning up...
+[*] Checking solver.c (50%)
+[*] Attempting to compile with your solver.c, path.c, maze.c and list.c and our pa10.c
+[*] Running tests...
+[*] Maze with one valid path: There are 0 different lines
+[*] Maze with three valid paths: There are 0 different lines
+[*] Maze with no walls(multiple valid paths): There are 0 different lines
+[*] You passed 3/3 cases
+[*] Testing valgrind errors/memory leaks. (-50% for any error)
+[*] There are 0 byte(s) leaked.
+[*] There are 0 error(s) detected by valgrind.
+
+[*] Checking list.c (50%)
+[*] Attempting to compile your list.c with instructor's files
+[*] addNode function in list.c (20%), Checking your linked list after adding a node
+[*] Node with a path having different length: There are 0 different node(s) between expected LL and your LL
+[*] Node with a path having same length but different #turns: There are 0 different node(s) between expected LL and your LL
+[*] Node with a path have same length and #turns but different alphabetical order: There are 0 different node(s) between expected LL and your LL
+[*] Node with already exisiting path: There are 0 different node(s) between expected LL and your LL
+[*] You passed 4/4 test cases 
+[*] Valgrind Check to test and freePath functions from list.c (-50% for any error/leak
+[*] There are 0 byte(s) leaked.
+[*] There are 0 error(s) detected by valgrind.
+
+[*] containsNode function in list.c (15%)
+[*] Checking return value for node present: Passed
+[*] Checking return value for node absent: Passed
+[*] You passed 2/2 test cases 
+
+[*] removeNode function in list.c (15%), checking your Linked List after removing a node
+[*] Removing Head Node: There are 1 different node(s) between expected LL and your LL
+[*] Removing intermediate Node: There are 1 different node(s) between expected LL and your LL
+[*] Removing Tail Node: Program failed to run
+[*] Trying to Removing non-existing node: There are 0 different node(s) between expected LL and your LL
+[*] You passed 1/4 test cases 
+
