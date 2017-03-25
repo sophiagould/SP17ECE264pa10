@@ -43,6 +43,9 @@ bool removeNode(PathLL * paths, char * path);
 /* Return true if path exists in the list */
 bool containsNode(PathLL * paths, char * path);
 
+bool comp(char * p1, char * p2);
+
+int numturns(char * path);
 /* Write the paths in the list, in order, one per line, to fptr*/
 void printPaths(PathLL * paths, FILE * fptr);
 
